@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessability table</title>
+    <style>
+        table,th,td{
+            border: 1px solid red;
+            border-collapse: collapse;
+                    }
+            
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Accessabile table</h1>
+    </header>
+
+    <main>
+        <table>
+            <caption>Student info</caption>
+            <colgroup >
+                <!-- using colgroup and span accessability  -->
+            <col span="2"style="background-color:red">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">GPA</th>
+                </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <th scope="row">234</td>
+                <td>Rofik</td>
+                <td>3.50</td>
+            </tr>
+            <tr>
+                <th scope="row">526</td>
+                <td>Sofik</td>
+                <td>3.45</td>
+            </tr>
+            <tr>
+                <td>234</td>
+                <td>Tofik</td>
+                <td>3.53</td>
+            </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+   <style>
+    body{
+        background-color: black;
+    }
+    table,td,th{
+        border: 2px solid;width: 500px ;height: 50px;
+        text-align: center;
+        border-collapse: collapse;color: brown;
+        background-color: black;
+        padding: 20px;
+        /* cell padding */
+        border-spacing: 2;
+        /* cell spacing */
+    }
+    tr{
+        column-span: 4;
+    }
+    
+   </style>
+</head>
+
+<body>
+    <h1>HTML table</h1>
+    <table>
+        <caption>Student details</caption>
+        <thead>
+            <tr>
+            <th>Name</th>
+            <th>CG</th>
+            <th>DEPT</th>
+            <th>ID</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Roton</td>
+                <td>2.34</td>
+                <td>CSE</td>
+                <td>3848745</td>
+            </tr>
+            <tr>
+                <td>Sofik</td>
+                <td>3.34</td>
+                <td>CSE</td>
+                <td>8848745</td>
+            </tr>
+            <tr>
+                <td>Rofik</td>
+                <td>2.35</td>
+                <td>CSE</td>
+                <td>3849745</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
